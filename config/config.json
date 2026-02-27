@@ -1,0 +1,21 @@
+{
+  "mode": "rtsp",
+  "interactive": true,
+
+  "input": {
+    "dvr": {
+      "ip": "172.16.0.95",
+      "username": "admin",
+      "password": "SemiCore@2025",
+      "port": 554,
+      "max_channels": 16
+    }
+  },
+
+  "analytics": {
+    "start_time": "09:00",
+    "stop_time": "18:00",
+    "sample_interval": 5,
+    "model_path": "src/models/head-based_detection.pt"
+  }
+}
